@@ -1,4 +1,5 @@
 .container{
+	
 	width:756px;
 	margin: 0 auto;
 }
@@ -16,15 +17,22 @@
 	
 }
 .header-menu li{
+	border-color:#f3f3f3;
 	border-style: solid;
 	border-collapse: none;
 	display:inline-block;
 }
+.header-menu a:hover{
+	padding: 5px 25px;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 30px;
+	color:#000;}
 .header-menu a{
 	padding: 5px 25px;
 	
 	text-decoration: none;
-	color:#333;
+	color:#5f5d67;
 	font-size: 14px;
 	line-height: 30px;
 }
@@ -32,4 +40,42 @@
 /*--- slidesow ---*/
 .slideshow{margin-top:35px;}
 
-/*--content--*/
+/*--- content ---*/
+
+.content{margin-top: 25px;
+	margin-bottom:25px;
+	float:left;
+	width:465px;
+	background-color: #f3f3f3;
+	}
+.content h1{
+	line-height: 18px;
+	color:#555;
+	font-size: 24px;
+	padding:30px 30px 10px 25px;}
+
+.content p{
+	padding:30px;
+	line-height: 18px;
+	color:#555555;
+	font-size: 12px;}	
+
+/*--- contacts ---*/
+.contacts{float:right;
+	margin-top: 25px;
+	width: 270px;
+	background-color: #f3f3f3;
+	
+}
+.contacts h1{
+	line-height: 18px;
+	color:#555;
+	font-size: 24px;
+	padding:30px 30px 10px 25px;}
+
+.contacts p,h1{padding:30px;}
+
+.contacts p{padding:30px;
+	line-height: 18px;
+	color:#333333;
+	font-size: 12px;}
